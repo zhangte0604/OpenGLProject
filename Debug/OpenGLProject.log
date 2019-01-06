@@ -1,11 +1,25 @@
 ﻿  Main.cpp
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(248): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(302): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(366): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(367): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(371): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(372): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(374): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(375): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(384): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(271): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(303): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(304): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(305): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(401): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(402): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(406): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(407): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(409): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(410): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(419): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   OpenGLProject.vcxproj -> C:\Users\Tete\Desktop\OpenGL Projects\OpenGLProject\Debug\OpenGLProject.exe
