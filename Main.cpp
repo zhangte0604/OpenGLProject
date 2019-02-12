@@ -8,6 +8,7 @@
 
 #include "Shader.h"
 #include "camera.h"
+#include "model.h"
 
 #include <iostream>
 
@@ -117,6 +118,8 @@ int main()
 	// ------------------------------------
 	Shader ourShader("VertexShader.glsl", "FragmentShader.glsl");
 	Shader lightShader("VertexShader.glsl", "LightFragmentShader.glsl");
+
+	Model ourModel("Objects/teapot/teapot.obj");
 
 	// set up vertex data (and buffer(s)) and configure vertex attributes
 	// ------------------------------------------------------------------
@@ -376,7 +379,12 @@ int main()
 			glDrawArrays(GL_TRIANGLES, 0, 36);
 		}
 
-
+		// render the loaded model
+		glm::mat4 model = glm::mat4(1.0f);
+		model = glm::translate(model, glm::vec3(0.0f, -1.75f, 0.0f)); // translate it down so it's at the center of the scene
+		model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));	// it's a bit too big for our scene, so scale it down
+		ourShader.setMat4("model", model);
+		ourModel.Draw(ourShader);
 
 		// glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
 		// -------------------------------------------------------------------------------

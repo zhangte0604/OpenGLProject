@@ -1,20 +1,23 @@
 ﻿  Main.cpp
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(257): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(290): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(291): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(298): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(299): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(306): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(307): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(314): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(315): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(323): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(324): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(435): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(436): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(440): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(441): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tete\desktop\opengl projects\openglproject\stb_image.h(7324): error C2011: 'stb_image': 'class' type redefinition
+  c:\users\tete\desktop\opengl projects\openglproject\stb_image.h(7323): note: see declaration of 'stb_image'
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(260): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(293): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(294): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(301): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(302): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(309): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(310): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(317): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(318): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(326): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(327): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(383): error C2374: 'model': redefinition; multiple initialization
+  c:\users\tete\desktop\opengl projects\openglproject\main.cpp(338): note: see declaration of 'model'
 c:\users\tete\desktop\opengl projects\openglproject\main.cpp(443): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 c:\users\tete\desktop\opengl projects\openglproject\main.cpp(444): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\tete\desktop\opengl projects\openglproject\main.cpp(453): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  OpenGLProject.vcxproj -> C:\Users\Tete\Desktop\OpenGL Projects\OpenGLProject\Debug\OpenGLProject.exe
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(448): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(449): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(451): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(452): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tete\desktop\opengl projects\openglproject\main.cpp(461): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
